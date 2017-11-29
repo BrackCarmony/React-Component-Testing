@@ -8,15 +8,12 @@ class Blog extends Component {
 
   }
   onlyIfWarning(){
-    if (this.props.warning) return (<div className="warning">{this.props.warning}</div>)
-      return null;
+
   }
   render(){
     return (
       <div>
-        <h1>{this.props.title}</h1>
-        <div>{this.props.blog}</div>
-        {this.onlyIfWarning()}
+        Component will go here
       </div>
     )
   }
