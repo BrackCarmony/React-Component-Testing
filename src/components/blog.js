@@ -7,7 +7,7 @@ class Blog extends Component {
   uppercaseTitle(){
     return this.props.title.toUpperCase();
   }
-  onlyIfTest(){
+  onlyIfWarning(){
     if (this.props.warning) return (<div className="warning">{this.props.warning}</div>)
       return null;
   }
@@ -16,7 +16,7 @@ class Blog extends Component {
       <div>
         <h1>{this.props.title}</h1>
         <div>{this.props.blog}</div>
-        {this.onlyIfTest()}
+        {this.onlyIfWarning()}
       </div>
     )
   }
