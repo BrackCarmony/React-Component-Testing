@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog Blog renders with warning 1`] = `
+<div>
+  <h1>
+    test
+  </h1>
+  <div>
+    This is a lovely blog post
+  </div>
+  <div
+    className="warning"
+  >
+    This is my warning
+  </div>
+</div>
+`;
+
+exports[`Blog Blog renders without warning 1`] = `
+<div>
+  <h1>
+    test
+  </h1>
+  <div>
+    This is a lovely blog post
+  </div>
+</div>
+`;
